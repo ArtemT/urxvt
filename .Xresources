@@ -1,0 +1,89 @@
+!color2:  recognized non-bold file formats in ls
+!color10:  executable files, prompt.
+!color12:  directories, prompt directory, .tgz files.
+!color13:  avi,png files...
+
+!  Light on dark scheme:
+URxvt*color0:     #000000
+URxvt*color1:     #bf7276
+URxvt*color2:     #aae069
+URxvt*color3:     #ffeb5f
+
+!URxvt*color4:     #3c98c9
+!URxvt*color4:     #231bb8
+URxvt*color4:     #535bc4
+
+URxvt*color5:     #9a70b2
+URxvt*color6:     #93fcff
+URxvt*color7:     #dbdbdb
+URxvt*color8:     #6692af
+URxvt*color9:     #e5505f
+URxvt*color10:      #87bc87
+URxvt*color11:      #e0d95c
+URxvt*color12:      #1b85d6
+URxvt*color13:      #ad73ba
+URxvt*color14:      #338eaa
+URxvt*color15:      #f4f4f4
+URxvt*colorBD:      #ffffff
+URxvt*foreground:   #bebebe
+!URxvt*background:   #2b2b2b
+URxvt*background:   #202020
+URxvt*boldMode:     false
+URxvt*boldColor:    #ffffff
+URxvt*scrollBar:    false
+URxvt*colorMode:    on
+URxvt*dynamicColors:    on
+URxvt*highlightSelection: true
+
+!URxvt*loginShell: true
+URxvt*jumpScroll: true
+URxvt*multiScroll: true
+
+!http://wilmer.gaa.st/blog/archives/36-rxvt-unicode-and-ISO-14755-mode.html#c254
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+URxvt.clipboard.autocopy: true
+
+URxvt.perl-ext-common: default,matcher,vtwheel,-option-popup
+URxvt.urlLauncher: chromium
+URxvt.matcher.button: 2
+URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+
+Xft.dpi: 72
+Xft.lcdfilter: lcddefault
+Xft.antialias: true
+Xft.autohint: 1
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+
+!URxvt*highlightColor: #ffffff
+
+URxvt*visualBell: true
+URxvt*mouseWheelScrollPage: true
+
+!URxvt*font: xft:Anonymous Pro:size=14
+!URxvt*font: xft:Inconsolata\ for\ Powerline:size=14
+!URxvt*font: xft:PragmataPro:size=14
+
+!URxvt*intensityStyles: true
+URxvt*font: xft:PragmataPro:size=16:style=Regular
+URxvt*boldFont: xft:PragmataPro:size=16:style=Bold
+URxvt*font.italicFont: xft:PragmataPro:size=16:style=Italic
+URxvt*boldItalicFont: xft:PragmataPro:size=16:style=Bold\ Italic
+URxvt*letterSpace: -2
+
+
+!URxvt.keysym.C-minus: command:'echo -e "\033]710;-*-*-medium-r-normal--10-*-*-*-*-*-iso10646-1\033\\"'
+URxvt.keysym.C-minus: command:'echo -e "\033]710;xft:PragmataPro:size=12\033\\"'
+!URxvt.keysym.C-equal: command:'echo -e "\033]710;xft:Anonymous Pro:size=14\033\\"'
+URxvt.keysym.C-equal: command:'echo -e "\033]710;xft:PragmataPro:size=16\033\\"'
+
+URxvt.keysym.Control-Up:     \033[1;5A
+URxvt.keysym.Control-Down:   \033[1;5B
+URxvt.keysym.Control-Left:   \033[1;5D
+URxvt.keysym.Control-Right:  \033[1;5C
+
+!URxvt.keysym.Control-Tab:    \033[27;5;9~
+
